@@ -1,9 +1,15 @@
-def hello():
-    print("hi")
+# test.py
 
+def add(x, y):
+    return x + y
 
-def bye():
-    print("bye")
+def subtract(x, y):
+    return x - y
 
+def multiply(x, y):
+    return x * y
 
-print(hello())
+def divide(x, y):
+    if y == 0:
+        raise ValueError('Cannot divide by zero')
+    return x / y
